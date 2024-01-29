@@ -1,84 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <section class="main">
         <div class="background"></div>
+        <img src="img/moon.png" id="icon">
         <div class="main-info">
             <div class="question">
                 WHO I AM
             </div>
             <h2>I'm Assem Shimbergenova</h2>
-            <div class="typewriter">
-                <h1>a web developer</h1>
+            <div class="type-cont">
+                <div class="typewriter">
+                    <h1>a web developer</h1>
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="about">
+        <div class="about-cont">
+            <div class="skills-head">
+                <h1 data-aos="fade-up">About Me</h1>
+            </div>
+            <p data-aos="fade-up">
+                I'm Assem Shimbergenova, a front-end developer inspired by the ability to create beautiful and functional websites. My approach to development is a combination of creativity and technology. I help companies and brands improve their online presence by creating websites that are easy to navigate as well as engaging for users. My job is to make your web presence as effective as possible.
+            </p>
+            <a href="https://www.canva.com/design/DAF7O0zDDDQ/xi-q3d9DMCZqGTuda4bnOw/view?utm_content=DAF7O0zDDDQ&utm_campaign=designshare&utm_medium=link&utm_source=editor">My CV</a>
+        </div>
+    </section>
+
     <section class="skills">
         <div class="skills-info">
             <div class="skills-head margin">
-                <h1>Skills</h1>
+                <h1 data-aos="fade-up">Skills</h1>
             </div>
-            <div class="logos">
-                <div class="logo">
-                    <img src="./img/html.png" alt="">
-                    <p>HTML5</p>
+            <div class="skills-cont" data-aos="fade-up">
+                <div class="skills_slider">
+                    <div class="skills-slider-cont slide-track">
+                        <div class="skills-card slide"><img src="./img/react.png"></div>
+                        <div class="skills-card slide"><img src="./img/html.png"></div>
+                        <div class="skills-card slide"><img src="./img/css.png"></div>
+                        <div class="skills-card slide"><img src="./img/js.png"></div>
+                        <div class="skills-card slide"><img src="./img/bootstrap-logo.png"></div>
+                        <div class="skills-card slide"><img src="./img/c-logo-icon-18.png"></div>
+                        <div class="skills-card slide"><img src="./img/267_Python-512.webp"></div>
+                        <div class="skills-card slide"><img src="./img/226777.png"></div>
+                        <div class="skills-card slide"><img src="./img/react.png"></div>
+                        <div class="skills-card slide"><img src="./img/html.png"></div>
+                        <div class="skills-card slide"><img src="./img/css.png"></div>
+                        <div class="skills-card slide"><img src="./img/js.png"></div>
+                        <div class="skills-card slide"><img src="./img/bootstrap-logo.png"></div>
+                        <div class="skills-card slide"><img src="./img/c-logo-icon-18.png"></div>
+                        <div class="skills-card slide"><img src="./img/267_Python-512.webp"></div>
+                        <div class="skills-card slide"><img src="./img/226777.png"></div>
+                    </div>
                 </div>
-                <div class="logo">
-                    <img src="./img/css.png" alt="">
-                    <p>CSS3</p>
+            </div>
+            <div class="skills-cont skills-cont2" data-aos="fade-up">
+                <div class="skills_slider">
+                    <div class="skills-slider-cont slide-track">
+                        <div class="skills-card slide"><img src="./img/visual.png"></div>
+                        <div class="skills-card slide"><img src="./img/wordpress.png"></div>
+                        <div class="skills-card slide"><img src="./img/OctoberCMS.png"></div>
+                        <div class="skills-card slide"><img src="./img/tilda.png"></div>
+                        <div class="skills-card slide"><img src="./img/figma1.png"></div>
+                        <div class="skills-card slide"><img src="./img/sublime.png"></div>
+                        <div class="skills-card slide"><img src="./img/vis-p.png"></div>
+                        <div class="skills-card slide"><img src="./img/unity-512.webp"></div>
+                        <div class="skills-card slide"><img src="./img/gameMake.png"></div>
+                        <div class="skills-card slide"><img src="./img/thun.webp"></div>
+                        <div class="skills-card slide"><img src="./img/visual.png"></div>
+                        <div class="skills-card slide"><img src="./img/wordpress.png"></div>
+                        <div class="skills-card slide"><img src="./img/OctoberCMS.png"></div>
+                        <div class="skills-card slide"><img src="./img/tilda.png"></div>
+                        <div class="skills-card slide"><img src="./img/figma1.png"></div>
+                        <div class="skills-card slide"><img src="./img/sublime.png"></div>
+                        <div class="skills-card slide"><img src="./img/vis-p.png"></div>
+                    </div>
                 </div>
-                <div class="logo">
-                    <img src="./img/js.png" alt="">
-                    <p>JS</p>
-                </div>
-                <div class="logo">
-                    <img src="./img/bootstrap-logo.png" alt="">
-                    <p>Bootstrap</p>
-                </div>
-                <div class="logo">
-                    <img src="./img/react.png" alt="">
-                    <p>React</p>
-                </div>
-            
             </div>
         </div>
     </section>
-    <section class="skills">
+
+    <!-- <section class="skills">
         <div class="skills-info">
             <div class="logos">
-                <div class="logo">
-                    <img src="./img/vi.svg" alt="">
-                    <p>Visual studio code</p>
-                </div>
-                <div class="logo">
-                    <img src="./img/sublime.png" alt="">
-                    <p>Sublime</p>
-                </div>
-                <div class="logo">
-                    <img src="./img/tilda.png" alt="">
-                    <p>Tilda</p>
-                </div>
-                <div class="logo">
-                    <img class="figma-logo" src="./img/figma.png" alt="">
-                    <p>Figma</p>
+                <div id="carousel2" class="carousel">
+                    <button class="arrow prev"><img src="img/left-.png"></button>
+                    <div class="gallery" style="width: 650px;">
+                        <ul>
+                            <li><img src="./img/visual.png"></li>
+                            <li><img src="./img/wordpress.png"></li>
+                            <li><img src="./img/OctoberCMS.png"></li>
+                            <li><img src="./img/tilda.png"></li>
+                            <li><img src="./img/figma1.png"></li>
+                            <li><img src="./img/sublime.png"></li>
+                            <li><img src="./img/vis-p.png"></li>
+                            <li><img src="./img/unity-512.webp"></li>
+                            <li><img src="./img/gameMake.png"></li>
+                            <li><img src="./img/thun.webp"></li>
+                        </ul>
+                    </div>
+                    <button class="arrow next"><img src="img/left-.png"></button>
                 </div>
             </div>
-            <div class="skills-name">
-                <p>Editors</p>
+        </div>
+    </section> -->
+
+    <section class="certificates">
+        <div class="certificates-info">
+            <div class="skills-head">
+                <h1 data-aos="fade-up">Certificates</h1>
+            </div>
+            <div class="logos" data-aos="fade-up">
+                <div id="carousel" class="carousel_cert carousel">
+                    <button class="arrow prev"><img src="img/left-.png"></button>
+                    <div class="gallery gallery_cert">
+                        <ul>
+                            <li><img src="./img/certificates/cert1.png" tabindex="0"></li>
+                            <li><img src="./img/certificates/cert2.png" tabindex="1"></li>
+                            <li><img src="./img/certificates/cert3.png" tabindex="2"></li>
+                            <li><img src="./img/certificates/coursera5.png" tabindex="3"></li>
+                            <li><img src="./img/certificates/coursera6.png" tabindex="4"></li>
+                            <li><img src="./img/certificates/coursera7.png" tabindex="5"></li>
+                            <li><img src="./img/certificates/coursera8.png" tabindex="6"></li>
+                            <li><img src="./img/certificates/coursera5.png" tabindex="3"></li>
+                            <li><img src="./img/certificates/coursera6.png" tabindex="4"></li>
+                            <li><img src="./img/certificates/coursera7.png" tabindex="5"></li>
+                            <li><img src="./img/certificates/coursera8.png" tabindex="6"></li>
+                            <li><img src="./img/certificates/cert1.png" tabindex="0"></li>
+                            <li><img src="./img/certificates/cert2.png" tabindex="1"></li>
+                            <li><img src="./img/certificates/cert3.png" tabindex="2"></li>
+                        </ul>
+                    </div>
+                    <button class="arrow next"><img src="img/left-.png"></button>
+                </div>
             </div>
         </div>
     </section>
@@ -86,13 +161,163 @@
     <section class="projects">
         <div class="projects-info">
             <div class="projects-head">
-                <h1>My Projects</h1>
+                <h1 data-aos="fade-up">My Projects</h1>
             </div>
+
             <div class="section-project">
+                <div class="morepro">
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://underwood.kz/">
+                            <img src="./img/projects/underwood.png" alt="Underwood design">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://lws.kz/">
+                            <img src="./img/projects/lws.png" alt="LWS">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://5alfa.kz/">
+                            <img src="./img/projects/5alfa.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://pr1me.kz/">
+                            <img src="./img/projects/pr1me.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://glogistics.kz/">
+                            <img src="./img/projects/glogistics.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://tkks.kz/">
+                            <img src="./img/projects/tkks.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://uralsqa.com/ru">
+                            <img src="./img/projects/uralsqa.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://vct.kz/">
+                            <img src="./img/projects/vct.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://anoxic.kz/">
+                            <img src="./img/projects/anoxic.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://darkan.abc-task.kz/">
+                            <img src="./img/projects/darkan.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://astiv.abc-task.kz/">
+                            <img src="./img/projects/astiv.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://kazsmu.abc-task.kz/ru">
+                            <img src="./img/projects/kazsmu.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://modernartsite.netlify.app/">
+                            <img src="./img/projects/modernArt.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://chinesekz.netlify.app/">
+                            <img src="./img/projects/chinese.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://kazsmu.abc-task.kz/ru">
+                            <img src="./img/projects/takecare.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://billosite.netlify.app/">
+                            <img class="web" src="./img/projects/billo.png" style="margin-left: 10px;">
+                        </a>
+                    </div>
+                    <div class="project" data-aos="fade-up">
+                        <a href="https://medi-art.netlify.app/">
+                            <img src="./img/projects/mediart.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://famous-piroshki-0dcea6.netlify.app/main.html">
+                            <img src="./img/projects/lyceum.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://tvelia-adventure.netlify.app/">
+                            <img class="web" src="./img/projects/tvelia.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://infinizai.netlify.app/">
+                            <img class="web" src="./img/projects/infinizai.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://learnkoreanwithus.netlify.app/">
+                            <img class="web" src="./img/projects/korean.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="morepro">
+                    <div class="project">
+                        <a href="https://modernartsite.netlify.app/">
+                            <img src="./img/modernArt.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://chinesekz.netlify.app/">
+                            <img src="./img/chinese.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://famous-piroshki-0dcea6.netlify.app/main.html">
+                            <img src="./img/lyceumm.png" alt="">
+                        </a>
+                    </div>
+                <div class="morepro second">
+                    <div class="project">
+                        <a href="https://jihc-library.netlify.app/">
+                            <img class="web pro2" src="./img/jihcLibrary.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://menu-js-restaurant.netlify.app/">
+                            <img class="web pro2" src="./img/menu.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://wikii-js.netlify.app/">
+                            <img class="web pro2" src="./img/wiki.png" alt="">
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a
+                            href="file:///C:/Users/akhat/Desktop/javascript-basic-projects-master/03-reviews/setup/index.html">
+                            <img class="web pro2" src="./img/js2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                </div> -->
+
+            <!-- <div class="section-project" style="margin-top: 200px;">
                 <h1>HTML ~ CSS</h1>
                 <div class="morepro">
                     <div class="project">
-                       <a href="https://willow-assem.netlify.app/">
+                        <a href="https://willow-assem.netlify.app/">
                             <img class="web" src="./img/web5.png" alt="">
                         </a>
                     </div>
@@ -107,93 +332,110 @@
                         </a>
                     </div>
                 </div>
-
-
                 <div class="morepro second">
+                    <div class="project">
+                        <a href="https://billosite.netlify.app/">
+                            <img class="web" src="./img/web4.png" style="margin-left: 10px;">
+                        </a>
+                    </div>
                     <div class="project">
                         <a href="https://burningman-site.netlify.app/">
                             <img class="web" src="./img/web1.png" alt="">
                         </a>
                     </div>
                     <div class="project">
-                        <a href="https://portfolionum1.netlify.app/">
-                            <img class="web" src="./img/web2.png" alt="">
+                        <a href="https://takecarekz.netlify.app/main.html">
+                            <img class="web" src="./img/techcup.png" alt="">
                         </a>
                     </div>
                     <div class="project">
-                        <a href="https://portfolionum2.netlify.app/">
-                            <img class="web" src="./img/web3.png" alt="">
-                        </a>
-                    </div>
-                    <div class="project">
-                        <a href="https://billosite.netlify.app/">
-                            <img class="web" src="./img/web4.png" alt="">
+                        <a href="file:///C:/Users/akhat/Desktop/web/sdigital/main.html">
+                            <img class="web" src="./img/sdigital.png" alt="">
                         </a>
                     </div>
                 </div>
-            </div>
-            <div class="section-project js">
-                <h1>JS</h1>
-                <div class="morepro">
-                    <div class="project">
-                       <a href="file:///C:/Users/akhat/Desktop/javascript-basic-projects-master/02-counter/setup/index.html">
-                            <img class="web pro2" src="./img/js1.png" alt="">
-                        </a>
-                    </div>
-                    <div class="project">
-                        <a href="file:///C:/Users/akhat/Desktop/javascript-basic-projects-master/03-reviews/setup/index.html">
-                            <img class="web pro2" src="./img/js2.png" alt="">
-                        </a>
-                    </div>
-                    <div class="project">
-                        <a href="file:///C:/Users/akhat/Desktop/javascript-basic-projects-master/06-modal/setup/index.html">
-                            <img class="web pro2" src="./img/js3.png" alt="">
-                        </a>
-                    </div>
-                </div>
+            </div> -->
 
+            <!-- <div class="section-project game">
+                <h1>Unity</h1>
+                <video width="800" controls>
+                    <source src="img/video.MP4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg">
+                    Your browser does not support HTML video.
+                </video>
+            </div> -->
 
-                <div class="morepro second">
-                    <div class="project">
-                        <a href="file:///C:/Users/akhat/Desktop/javascript-basic-projects-master/07-questions/setup/index.html">
-                            <img class="web pro2" src="./img/js4.png" alt="">
-                        </a>
-                    </div>
-                    <div class="project">
-                        <a href="https://menu-js-restaurant.netlify.app/">
-                            <img class="web pro2" src="./img/js5.png" alt="">
-                        </a>
-                    </div>
-                    <div class="project">
-                        <a href="file:///C:/Users/akhat/Desktop/javascript-basic-projects-master/09-video/setup/index.html">
-                            <img class="web pro2" src="./img/js6.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="section-project react">
+            <!-- <div class="section-project react">
                 <h1>React</h1>
                 <div class="project pro-react">
                     <a href="https://learnkoreanwithus.netlify.app/">
-                         <img class="web" src="./img/react1.png" alt="">
-                     </a>
-                 </div>
-            </div>
+                        <img class="web" src="./img/react1.png" alt="">
+                    </a>
+                </div>
+            </div> -->
+
+
         </div>
     </section>
 
-    
-	<footer>
+    <!-- <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <form onsubmit="return getText()" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enyet Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section> -->
+
+    <footer>
         <p>Thank you</p>
-		<div class="social">
-			<a href="#"><i class="fab fa-facebook-f"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-dribbble"></i></a>
-		</div>
-		<p class="end">CopyRight By Assem</p>
-	</footer>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/_asem.sh_/"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+        </div>
+    </footer>
 
 
-     <script src="app.js"></script> 
+    <script src="app.js"></script>
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function () {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                icon.src = "img/sun.png";
+            } else {
+                icon.src = "img/moon.png";
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+        integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous">
+    </script>
+    <script>
+        SmoothScroll({
+            animationTime: 1400,
+            stepSize: 75,
+
+            accelerationDelta: 30,
+            accelerationMax: 2,
+
+            keyboardSupport: true,
+            arrowScroll: 50,
+
+            pulseAlgorithm: true,
+            pulseScale: 4,
+            pulseNormalize: 1,
+
+            touchpadSupport: true,
+        })
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
+
 </html>
